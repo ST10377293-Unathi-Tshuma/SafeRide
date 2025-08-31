@@ -32,7 +32,6 @@ import {
 } from "lucide-react"
 import Link from "next/link"
 import { ErrorBoundary } from "@/components/ErrorBoundary"
-import { useDebouncedSearch } from "@/hooks/useDebounce"
 
 interface FAQ {
   id: string
